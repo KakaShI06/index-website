@@ -4,7 +4,7 @@ export default function Home() {
   const BLOGS = 'https://blogs.snapbit.in'
   return (
     <main>
-      <h1> Main Portfolio Site: </h1>
+      <h1 className='underline font-bold'> Main Portfolio Site: </h1>
       <Link href={'https://ujjval.snapbit.in'}> Porfolio </Link>
 
       <h2> Main Blog Website: </h2>
