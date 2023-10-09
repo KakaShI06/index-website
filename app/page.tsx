@@ -10,8 +10,8 @@ export default function Home() {
       <h2> Main Blog Website: </h2>
       <Link href={BLOGS}> Blogs Website </Link>
 
-      <h3>My Latest Blogs</h3>
-      <ul>
+      <h3 className='underline font-bold'>My Latest Blogs</h3>
+      <ul className='list-disc ml-8'>
         <li>
           <Link href={`${BLOGS}/blog/how-to-center-a-div`}>
             {' '}
