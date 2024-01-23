@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <h1 className='underline font-bold'> Main Portfolio Site: </h1>
-      <Link href={'https://ujjval.snapbit.in'}> Porfolio </Link>
+      <Link href={'https://ujjval.snapbit.in'}> Portfolio </Link>
 
       <h2> Main Blog Website: </h2>
       <Link href={BLOGS}> Blogs Website </Link>
@@ -23,6 +23,9 @@ export default function Home() {
             {' '}
             Debounce with react custom react hook{' '}
           </Link>
+        </li>
+        <li>
+          <Link href={'https://blogs.snapbit.in/blog/module-bundler'}>Blog for understanding of Module Bundler</Link>
         </li>
       </ul>
 
