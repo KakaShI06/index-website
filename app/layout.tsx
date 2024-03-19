@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Index | Ujjval',
-  description: 'Index Page Site Map',
+  title: 'Ujjval Priyadarshi, Senior Software Engineer',
+  description: 'Index Page for Snapbit, this website is only used for indexing of snapbit, developer named Ujjval Priyadarshi',
   icons: '/logo/white.png',
   openGraph: {
     type: 'website',
